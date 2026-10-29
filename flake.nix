@@ -52,7 +52,7 @@
         ninja
         python3
       ];
-      buildInputs = with pkgs; [ gcc zlib ];
+      buildInputs = with pkgs; [ zlib ];
 
       hardeningDisable = [ "libcxxhardeningfast" ];
 
